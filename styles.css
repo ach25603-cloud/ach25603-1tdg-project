@@ -1,5 +1,7 @@
-img{
+img {
+
     width: 30%,
+
 }
 
 .navbar ul {
@@ -22,13 +24,18 @@ img{
     text-decoration: none;
 }
 
-ul li a:hover{
+ul li a:hover {
     background-color: #111111;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-container {
     display: flex;
-    flex-direction:row; 
+    flex-direction: row-reverse;
 }
 
 
