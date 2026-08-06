@@ -41,7 +41,11 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40%;
+    margin: 5%;
+}
+
+.tree-center img {
+    width: 90%;
 }
 
 .flex-container{
