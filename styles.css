@@ -22,16 +22,17 @@ img {
     text-decoration: none;
 }
 
-body{
+body {
     background-color: #dbefe1;
-    
+
 }
+
 
 ul li a:hover {
     background-color: #111111;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
 }
@@ -53,12 +54,11 @@ ul li a:hover {
     width: 90%;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: row-reverse;
 }
 
-p{
+p {
     color: #000000;
 }
-
