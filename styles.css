@@ -35,6 +35,7 @@ ul li a:hover {
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .flex-container {
@@ -47,11 +48,10 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5%;
 }
 
 .tree-center img {
-    width: 50%;
+    width: 40%;
 }
 
 .flex-container {
