@@ -62,3 +62,18 @@ ul li a:hover {
 p {
     color: #000000;
 }
+
+h1 {text-align: center;}
+    
+.links-for-criteria h2 {
+    text-align: center;
+background-color: #425b45;
+color: #f9fee5;
+}
+    div {text-align: center;}
+
+    
+.links-for-criteria a:link {
+        color: #f9fee5;
+
+    }
