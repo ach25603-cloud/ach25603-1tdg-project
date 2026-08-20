@@ -1,6 +1,4 @@
-img {
-    width: 30%;
-}
+/* nav-bar */
 
 .navbar ul {
     list-style-type: none;
@@ -23,16 +21,44 @@ img {
     padding-top: 14px 16px;
 }
 
+ul li a:hover {
+    background-color: #2b352c;
+}
+
+
+/* all pages css (text formatting that is the same across all pages) */
+
 body {
     background-color: #dbefe1;
 
 }
 
-
-ul li a:hover {
-    background-color: #2b352c;
+img {
+    width: 30%;
 }
 
+
+p {
+    color: #000000;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+div {
+    text-align: center;
+}
+
+
+
+
+
+
+/* flexbox */
 .container {
     display: flex;
     flex-direction: row;
@@ -55,19 +81,23 @@ ul li a:hover {
     width: 40%;
 }
 
-.flex-container {
+
+.container-flex {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
-p {
-    color: #000000;
+.container-flex > div {
+    width: 25%;
 }
 
-h1 {
-    text-align: center;
+
+.image-div img {
+    width: 100%;
 }
 
+
+/*Criterialnks*/
 .links-for-criteria h2 {
     text-align: center;
     background-color: #425b45;
@@ -77,37 +107,7 @@ h1 {
     /*margin 1st num top bottom, second left right*/
 }
 
-div {
-    text-align: center;
-}
-
-
 .links-for-criteria a:link {
     color: #f9fee5;
 
-}
-
-h1 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-div {
-    text-align: center;
-}
-
-.Christoph-Schulz {
-    margin-top: 400px;
-    margin-right: 50px;
-}
-
-.image-div img {
-    width: 50%;
-}
-
-.img-div img{
-    width: 50%;
 }
