@@ -20,6 +20,7 @@ img {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    padding-top: 14px 16px;
 }
 
 body {
@@ -63,20 +64,50 @@ p {
     color: #000000;
 }
 
-h1 {text-align: center;}
-    
+h1 {
+    text-align: center;
+}
+
 .links-for-criteria h2 {
     text-align: center;
-background-color: #425b45;
-color: #f9fee5;
-padding-bottom: 20px;
-margin: 10px 25%;
-/*margin 1st num top bottom, second left right*/
+    background-color: #425b45;
+    color: #f9fee5;
+    padding-bottom: 20px;
+    margin: 10px 25%;
+    /*margin 1st num top bottom, second left right*/
 }
-    div {text-align: center;}
 
-    
+div {
+    text-align: center;
+}
+
+
 .links-for-criteria a:link {
-        color: #f9fee5;
+    color: #f9fee5;
 
-    }
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.Christoph-Schulz {
+    margin-top: 400px;
+    margin-right: 50px;
+}
+
+.image-div img {
+    width: 50%;
+}
+
+.img-div img{
+    width: 50%;
+}
