@@ -65,11 +65,6 @@ div {
     justify-content: space-between;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 
 .tree-center {
     display: flex;
@@ -87,17 +82,13 @@ div {
     flex-direction: row;
 }
 
-.container-flex > div {
-    width: 25%;
-}
-
 
 .image-div img {
     width: 100%;
 }
 
 
-/*Criterialnks*/
+/*Criteria links*/
 .links-for-criteria h2 {
     text-align: center;
     background-color: #425b45;
@@ -110,4 +101,26 @@ div {
 .links-for-criteria a:link {
     color: #f9fee5;
 
+}
+
+a:visited {
+    color: #f9fee5;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* Text sizes*/
+
+h1 {
+    font-size: 36.4px;
+}
+
+p {
+    font-size: 20px;
+
+/*text aligns*/
+    text-align: center;
+}
+/* Border for images*/
+img {
+    border: 5px solid #425b45;
 }
