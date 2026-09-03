@@ -38,11 +38,6 @@ img {
 }
 
 
-p {
-    color: #000000;
-    text-align: center;
-}
-
 h1 {
     text-align: center;
 }
@@ -52,11 +47,6 @@ h1 {
 div {
     text-align: center;
 }
-
-
-
-
-
 
 /* flexbox */
 .container {
@@ -116,6 +106,8 @@ h1 {
 
 p {
     font-size: 20px;
+    color: #000000;
+    text-align: center;
 
 /*text aligns*/
     text-align: center;
@@ -123,4 +115,18 @@ p {
 /* Border for images*/
 img {
     border: 5px solid #425b45;
+}
+
+/*About US CSS*/
+.about-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-image-div {
+    width: 75%;
+}
+
+.about-image-div img {
+    width: 75%;
 }
